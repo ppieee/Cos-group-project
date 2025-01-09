@@ -1,7 +1,7 @@
 from tkinter import Tk, Entry, Button, Label, StringVar
 
 window = Tk()
-window.geometry('600x250')
+window.geometry('400x400')
 window.title('Language translator')
 
 entry_text = Entry(window)
