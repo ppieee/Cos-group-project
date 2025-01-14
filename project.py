@@ -21,10 +21,10 @@ french_dictionary = {'good':'bon',
                      'kill':'tuer',
                      'split':'diviser',
                      'scatter':'dispersion',
-                      'happy':'heureuse',
-                       'sad':'triste',
-                       'confused':'confus',
-                      'cut':'couper',
+                     'happy':'heureuse',
+                     'sad':'triste',
+                     'confused':'confus',
+                     'cut':'couper',
                     'slice':'tranche',
                     'serious':'sérieuse',
                     'inspect':'inspecter',
@@ -40,8 +40,8 @@ def search(word):
         result.set('Not found')
         print('Not found')
 
-search_btn = Button(window, text='search', command=lambda: search(entry_text.get()))
-search_btn.pack()
+search_btn = Button(window, text='French', command=lambda: search(entry_text.get()))
+search_btn.pack(padx=10,pady=10)
 
 window.mainloop()
 
