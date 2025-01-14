@@ -20,7 +20,17 @@ french_dictionary = {'good':'bon',
                      'shout':'crier',
                      'kill':'tuer',
                      'split':'diviser',
-                     'scatter':'dispersion'}
+                     'scatter':'dispersion',
+                      'happy':'heureuse',
+                       'sad':'triste',
+                       'confused':'confus',
+                      'cut':'couper',
+                    'slice':'tranche',
+                    'serious':'sérieuse',
+                    'inspect':'inspecter',
+                    'pour':'verser',
+                    'speak':'parler',
+                    'lie':'mensonge'}
 
 def search(word):
     if word in french_dictionary:
