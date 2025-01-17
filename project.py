@@ -48,7 +48,18 @@ gbagyi_dictionary={'god gift':'shegiza',
                   'fly':'seafnu',
                   'star':'kpasi',
                   'say':'gna',
-                  'rain':'ogma',}
+                  'rain':'ogma',
+                  'you':'oho',
+                  'two':'mba',
+                  'man':'zangbai',
+                  'skin':'pata',
+                  'tongue':'ntala',
+                  'liver':'aye',
+                  'fire':'ona',
+                  'yellow':'olo',
+                  'new':'woi',
+                  'name':'oye',
+                  'dry':'wo',}
 
 
 
