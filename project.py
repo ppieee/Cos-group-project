@@ -108,8 +108,6 @@ def search2(word):
 button=Button (window,text= 'bura', command=lambda: search2(entry_text.get()))
 button.pack(padx=10,pady=10)
 
-window.mainloop()
-
 Spanish_Dictionary = {
     'destiny' : 'destino',
     'bottle' : 'botella',
@@ -130,8 +128,7 @@ Spanish_Dictionary = {
     'book' : 'libro',
     'happy' : 'feliz',
     'family' : 'familia',
-    'city' : 'ciudad'
-}
+    'city' : 'ciudad'}
 
 def search1(word):
     if word in Spanish_Dictionary:
