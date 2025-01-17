@@ -40,6 +40,29 @@ def search(word):
         result.set('Not found')
         print('Not found')
 
+gbagyi_dictionary={'god gift':'shegiza',
+                  'there is god':'sheyilo',
+                  'there is time':'sayilo',
+                  'know':'kpeoye',
+                  'see':'gyeoye',
+                  'fly':'seafnu',
+                  'star':'kpasi',
+                  'say':'gna',
+                  'rain':'ogma',}
+
+
+
+def search34(word):
+    if word in gbagyi_dictionary:
+        result.set(gbagyi_dictionary[word])
+        print(gbagyi_dictinary[word])
+    else:
+        result.set('Not found')
+        print('Not found')
+
+button=button (window,text= 'gbagyi', command=lambda:search34(entry_text.get()))
+button.pack(padx=10,pady=10)
+
 search_btn = Button(window, text='French', command=lambda: search(entry_text.get()))
 search_btn.pack(padx=10,pady=10)
 
