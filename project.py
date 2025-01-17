@@ -43,5 +43,37 @@ def search(word):
 search_btn = Button(window, text='French', command=lambda: search(entry_text.get()))
 search_btn.pack(padx=10,pady=10)
 
+bura_dictionary={"good morning":"wokpinya",
+                    "good afternoon":"kpuchirna",
+                    "thank you":"usah",
+                    "come":"sira",
+                    "go" : "tira",
+                    "sorry" :"sama",
+                    "water":"yimi",
+                    "food" :"susuma",
+                    "shoe" : "mbabi",
+                    "cloth": "liptu",
+                    "head" :"karga",
+                    "welcome": "maraba",
+                    "book " : "karkadu",
+                    "broom" : "shimtu",
+                    "mother": "mi yana",
+                    "soup" : "sukwar",
+                    "school" : "makaranta",
+                    "dog" : "kila"}
+
+
+
+def search2(word):
+    if word in bura_dictionary:
+        result.set(bura_dictionary[word])
+        print(bura_dictionary[word])
+    else:
+        result.set('Not found')
+        print('Not found')
+
+button=Button (window,text= 'bura', command=lambda: search2(entry_text.get()))
+button.pack(padx=10,pady=10)
+
 window.mainloop()
 
