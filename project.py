@@ -39,6 +39,9 @@ def search(word):
     else:
         result.set('Not found')
         print('Not found')
+      
+search_btn = Button(window, text='French', command=lambda: search(entry_text.get()))
+search_btn.pack(padx=10,pady=10)
 
 gbagyi_dictionary={'god gift':'shegiza',
                   'there is god':'sheyilo',
@@ -61,8 +64,6 @@ gbagyi_dictionary={'god gift':'shegiza',
                   'name':'oye',
                   'dry':'wo',}
 
-
-
 def search34(word):
     if word in gbagyi_dictionary:
         result.set(gbagyi_dictionary[word])
@@ -74,8 +75,6 @@ def search34(word):
 button=button (window,text= 'gbagyi', command=lambda:search34(entry_text.get()))
 button.pack(padx=10,pady=10)
 
-search_btn = Button(window, text='French', command=lambda: search(entry_text.get()))
-search_btn.pack(padx=10,pady=10)
 
 bura_dictionary={"good morning":"wokpinya",
                     "good afternoon":"kpuchirna",
