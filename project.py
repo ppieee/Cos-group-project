@@ -141,4 +141,36 @@ def search1(word):
 search_btn = Button(window, text='spanish', command=lambda: search1(entry_text.get()))
 search_btn.pack(padx=10,pady=10)
 
+hausa_dictionary:{'come':'zo',
+                  'bed':'gado',
+                  'water':'ruwa',
+                  'food':'abinchi',
+                  'leg':'kafa',
+                  'cloth':'kaya',
+                  'hand':'hanu',
+                  'teacher':'malam',
+                  'car':'mota',
+                  'blessing':'albarka',
+                  'house':'gida',
+                  'bag':'jaka',
+                  'night':'dare',
+                  'fish':'kifi',
+                  'body':'jiki',
+                  'book':'tagada',
+                  'man':'miji',
+                  'stone:'dutse',
+                  'life':'rayuwa',
+                  'peace':'salama'}
+                  
+def search23(word):
+        if word in hausa_Dictionary:
+        result.set(hausa_Dictionary[word])
+        print(hausa_Dictionary[word])
+    else:
+        result.set('not found')
+        print('not found')
+
+search_btn = Button(window, text='hausa', command=lambda: search23(entry_text.get()))
+search_btn.pack(padx=10,pady=10)
+
 window.mainloop()
