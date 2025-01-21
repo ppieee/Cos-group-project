@@ -72,7 +72,7 @@ def search34(word):
         result.set('Not found')
         print('Not found')
 
-button=button (window,text= 'gbagyi', command=lambda:search34(entry_text.get()))
+button=Button (window,text= 'gbagyi', command=lambda:search34(entry_text.get()))
 button.pack(padx=10,pady=10)
 
 
@@ -141,7 +141,7 @@ def search1(word):
 search_btn = Button(window, text='spanish', command=lambda: search1(entry_text.get()))
 search_btn.pack(padx=10,pady=10)
 
-hausa_dictionary:{'come':'zo',
+hausa_dictionary={'come':'zo',
                   'bed':'gado',
                   'water':'ruwa',
                   'food':'abinchi',
@@ -158,7 +158,7 @@ hausa_dictionary:{'come':'zo',
                   'body':'jiki',
                   'book':'tagada',
                   'man':'miji',
-                  'stone:'dutse',
+                  'stone':'dutse',
                   'life':'rayuwa',
                   'peace':'salama'}
                   
