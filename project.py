@@ -166,7 +166,7 @@ def search23(word):
         if word in hausa_Dictionary:
         result.set(hausa_Dictionary[word])
         print(hausa_Dictionary[word])
-    else:
+        else:
         result.set('not found')
         print('not found')
 
